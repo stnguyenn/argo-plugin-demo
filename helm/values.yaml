@@ -1,0 +1,6 @@
+loki-distributed:
+  gateway:
+    basicAuth:
+      enabled: true
+      username: {{ .Values.lokiAuth.username }}
+      password: {{ .Values.lokiAuth.password }}
