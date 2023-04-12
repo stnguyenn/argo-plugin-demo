@@ -1,6 +1,0 @@
-loki-distributed:
-  gateway:
-    basicAuth:
-      enabled: true
-      username: '{{ .Values.global.gateway.username }}'
-      password: '{{ .Values.global.gateway.password }}'
